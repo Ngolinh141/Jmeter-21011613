@@ -1,10 +1,10 @@
 # Mô tả bài tập
 - Mô tả bài tập: Bài tập này nhằm mục đích kiểm tra hiệu suất của trang web "fcl.phenikaa-uni.edu.vn" lấy tên Testing .Quan tâm đến thời gian phản hồi, tỉ lệ lỗi, và khả năng xử lý request của máy chủ**
-- # Kịch bản kiểm tra:
-- - Kịch bản kiểm tra:
--     + Tạo một HTTP Request để truy cập vào trang "fcl.phenikaa-uni.edu.vn".
--     + Sử dụng JMeter để tạo tải trọng với 999 request.
--     + Thu thập dữ liệu về thời gian phản hồi, tỉ lệ lỗi, và khả năng xử lý request của máy chủ.
+# Kịch bản kiểm tra:
+- Kịch bản kiểm tra:
+      + Tạo một HTTP Request để truy cập vào trang "fcl.phenikaa-uni.edu.vn".
+      + Sử dụng JMeter để tạo tải trọng với 999 request.
+      + Thu thập dữ liệu về thời gian phản hồi, tỉ lệ lỗi, và khả năng xử lý request của máy chủ.
 # Jmeter
 + Tên http request: HomePage
 + Số lượng request đã thực hiện: 999
@@ -66,15 +66,15 @@
 + Tối ưu hóa kích thước và tối thiểu hóa số lượng tài nguyên (như hình ảnh, tập tin CSS và JavaScript) được tải xuống để giảm thông lượng KB nhận được và gửi đi.
 
 
-## Kiểm tra hiệu năng API
+# Kiểm tra hiệu năng API
 
-### Mục tiêu:
+## Mục tiêu:
 
 - Sử dụng jMeter để tạo một kịch bản kiểm tra mô phỏng người dùng truy cập API thời tiết https://openweathermap.org/current.
 - Chạy kịch bản kiểm tra và ghi lại kết quả.
 - Phân tích kết quả kiểm tra, bao gồm thời gian phản hồi, số lượng yêu cầu thành công, số lượng yêu cầu thất bại, v.v.
 - Dựa trên kết quả phân tích, đưa ra kết luận về hiệu năng của API.
-### Kịch bản kiểm tra:
+## Kịch bản kiểm tra:
 
 - Thread Group:
   - Số lượng thread: 100
@@ -92,7 +92,7 @@
 ![image](https://github.com/Ngolinh141/Jmeter-21011613/assets/96857420/868d7d4a-8229-4122-81d2-0033d7c89efc)
 
 
-### Phân tích kết quả kiểm tra:
+## Phân tích kết quả kiểm tra:
 
 - Số lượng yêu cầu thành công: 996/1000 = 99,6%
 - Số lượng yêu cầu thất bại: 4/1000 = 0,4%
