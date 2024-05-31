@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1717066191530,8538,testPNK,200,OK,Thread Group 1-1,text,true,,359788,386,1,1,https://fcl.phenikaa-uni.edu.vn/vi,21,0,15
+1717066191530,23,testPNK-0,302,Found,Thread Group 1-1,text,true,,302,128,1,1,http://fcl.phenikaa-uni.edu.vn/,21,0,15
+1717066191561,8140,testPNK-1,302,Found,Thread Group 1-1,,true,,268,128,1,1,https://fcl.phenikaa-uni.edu.vn/,8140,0,8118
+1717066199701,367,testPNK-2,200,OK,Thread Group 1-1,text,true,,359218,130,1,1,https://fcl.phenikaa-uni.edu.vn/vi,349,0,0
