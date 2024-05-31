@@ -2,9 +2,10 @@
 - Mô tả bài tập: Bài tập này nhằm mục đích kiểm tra hiệu suất của trang web "fcl.phenikaa-uni.edu.vn" lấy tên Testing .Quan tâm đến thời gian phản hồi, tỉ lệ lỗi, và khả năng xử lý request của máy chủ**
 # Kịch bản kiểm tra:
 - Kịch bản kiểm tra:
-      + Tạo một HTTP Request để truy cập vào trang "fcl.phenikaa-uni.edu.vn".
-      + Sử dụng JMeter để tạo tải trọng với 999 request.
-      + Thu thập dữ liệu về thời gian phản hồi, tỉ lệ lỗi, và khả năng xử lý request của máy chủ.
++ Tạo một HTTP Request để truy cập vào trang "fcl.phenikaa-uni.edu.vn".
++ Sử dụng JMeter để tạo tải trọng với 999 request.
++ Thu thập dữ liệu về thời gian phản hồi, tỉ lệ lỗi, và khả năng xử lý request của máy chủ.
+
 # Jmeter
 + Tên http request: HomePage
 + Số lượng request đã thực hiện: 999
